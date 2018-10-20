@@ -362,3 +362,10 @@ h1 {
 }
 
 #plesemasane.projects-section { padding-top: 0; }
+
+#image-band { padding-top: 5px; padding-bottom: 0; }
+#image-band .container-fluid { padding: 0; }
+#image-band .col-lg-2 { padding-left: 0; padding-right: 0; }
+#image-band .col-md-2 { padding-left: 0; padding-right: 0; }
+#image-band .col-sm-4 { padding-left: 0; padding-right: 0; }
+#image-band img { width: 100%; }
