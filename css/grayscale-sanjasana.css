@@ -365,7 +365,18 @@ h1 {
 
 #image-band { padding-top: 5px; padding-bottom: 0; }
 #image-band .container-fluid { padding: 0; }
-#image-band .col-lg-2 { padding-left: 0; padding-right: 0; }
-#image-band .col-md-2 { padding-left: 0; padding-right: 0; }
-#image-band .col-sm-4 { padding-left: 0; padding-right: 0; }
+#image-band div { background-color: #000000; }
+#image-band .col-lg-2 { padding: 2px 10px; }
+#image-band .col-md-2 { padding-left: 4px; }
+#image-band .col-sm-4 { padding-left: 4px; }
 #image-band img { width: 100%; }
+
+.film-strip-border {
+    height: 24px;
+    background-image: url("../img/trak/trak.png");
+    background-size: 20px;  
+    background-repeat: repeat-x;
+    background-color: #000000;
+    border-top: 7px solid #000000;
+    border-bottom: 7px solid #000000;
+}
