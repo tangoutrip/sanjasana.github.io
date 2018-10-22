@@ -313,13 +313,13 @@ video#videohead {
     width: 100%;
     height: auto;
 }
-.masthead .container {
+.masthead .container-fluid {
+    position: absolute;
     top: 0;
     left: 0;
-    position: absolute;
-    width: 100%;
-    z-index: 100;
 }
+.masthead #header-title { margin-top: 20%; }
+
 
 nav .fas { display: none; color: #43e8d8; }
 nav.navbar-shrink .fas { display: block; }
