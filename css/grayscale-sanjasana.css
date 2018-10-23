@@ -380,3 +380,9 @@ h1 {
     border-top: 7px solid #000000;
     border-bottom: 7px solid #000000;
 }
+
+#budokon, #tango, #joga {
+    background-size: cover;
+}
+#budokon { background-image: url(../img/budokon.jpg); }
+#tango { background-image: url(../img/tango.jpg); }
