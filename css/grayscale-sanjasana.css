@@ -176,7 +176,7 @@
 }
 
 .projects-section {
-  padding: 8rem 0;
+  position: relative;
 }
 
 .projects-section .featured-text,
@@ -205,29 +205,6 @@
     border-width: .25rem;
     width: 30%;
   }
-}
-
-.separator-section {
-  height:100vh;
-  margin-top: 10rem;
-  padding: 10rem 0;
-  background: url("../img/predklon.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-.separator-section .form-inline input {
-  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
 }
 
 .contact-section {
@@ -361,8 +338,6 @@ h1 {
     letter-spacing: 1.2rem;
 }
 
-#plesemasane.projects-section { padding-top: 0; }
-
 #image-band { padding-top: 5px; padding-bottom: 0; }
 #image-band .container-fluid { padding: 0; }
 #image-band div { background-color: #000000; }
@@ -381,8 +356,19 @@ h1 {
     border-bottom: 7px solid #000000;
 }
 
-#budokon, #tango, #joga {
-    background-size: cover;
+
+.projects-section img {
+    width: 100%;
 }
-#budokon { background-image: url(../img/budokon.jpg); }
-#tango { background-image: url(../img/tango.jpg); }
+.projects-section .container {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+#budokon img, #tango img, #joga img {
+    
+}
