@@ -260,10 +260,16 @@ body {
 a {
   color: #3bd6c6;
 }
+a.dark {
+  color: #3c6360;
+}
 
 a:focus, a:hover {
   text-decoration: none;
   color: #3c6360;
+}
+a.dark:focus, a.dark:hover {
+  color: #3bd6c6;
 }
 
 .bg-black {
