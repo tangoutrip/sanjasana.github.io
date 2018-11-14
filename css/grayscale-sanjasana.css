@@ -378,3 +378,15 @@ h1 {
 #budokon img, #tango img, #joga img {
     
 }
+
+@media (max-width: 797px) {
+    body { 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
