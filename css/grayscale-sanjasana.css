@@ -391,6 +391,8 @@ h1 {
     padding-right: 0px;
 }
 
+#joga h1 { margin-top: 60%; }
+
 @media (max-width: 797px) {
     .masthead {
         padding-top: 0;
@@ -404,4 +406,5 @@ h1 {
     .projects-section h1 { font-size: 1rem; }
     .projects-section p { font-size: 0.8rem; }
     .projects-section .container { top: 5px; }
+    #joga h1 { margin-top: 15%; }
 }
