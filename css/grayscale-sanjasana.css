@@ -390,3 +390,18 @@ h1 {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+@media (max-width: 797px) {
+    .masthead {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: auto;
+        min-height: inherit;
+    }
+    .about-section {
+        padding-top: 2rem;
+    }
+    .projects-section h1 { font-size: 1rem; }
+    .projects-section p { font-size: 0.8rem; }
+    .projects-section .container { top: 5px; }
+}
