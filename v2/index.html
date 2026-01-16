@@ -28,6 +28,53 @@
     .pill { display: inline-block; padding: 4px 10px; border: 1px solid rgba(0,0,0,0.15); border-radius: 999px; margin: 6px 6px 0 0; }
     .cta { display:inline-block; margin:10px 10px 0 0; padding:10px 14px; border:1px solid rgba(0,0,0,0.25); border-radius:12px; text-decoration:none; }
   </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://sanjasomatika.si/#org",
+      "name": "Sanja Somatika",
+      "url": "https://sanjasomatika.si/"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://sanjasomatika.si/#person",
+      "name": "Sanja PRIIMEK",
+      "alternateName": "Sanja Somatika",
+      "jobTitle": "Somatsko usmerjena psihosocialna svetovalka",
+      "url": "https://sanjasomatika.si/",
+      "sameAs": [
+        "https://www.instagram.com/sanjasomatika",
+        "https://www.youtube.com/@sanjasomatika",
+        "https://www.facebook.com/sanjasomatika"
+      ],
+      "worksFor": {
+        "@id": "https://sanjasomatika.si/#org"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://sanjasomatika.si/#service",
+      "name": "Somatsko orientirano psihosocialno svetovanje",
+      "provider": {
+        "@id": "https://sanjasomatika.si/#org"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Ljubljana" },
+        { "@type": "Country", "name": "Slovenia" }
+      ],
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://sanjasomatika.si/v2/",
+        "availableLanguage": ["sl"]
+      }
+    }
+  ]
+}
+</script>
+
 </head>
 
 <body>
