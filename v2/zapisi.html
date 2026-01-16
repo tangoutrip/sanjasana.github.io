@@ -7,7 +7,7 @@
   <title>Zapisi o somatiki | Sanja Somatika</title>
   <meta name="description" content="Zapisi o somatiki, stresu, anksioznosti, regulaciji živčnega sistema, čuječnosti in utelešenih somatskih praksah." />
 
-  <meta property="og:title" content="Zapisi | Sanja Somatika" />
+  <meta property="og:title" content="Zapisi o somatiki | Sanja Somatika" />
   <meta property="og:description" content="Zapisi o somatiki, stresu, anksioznosti in regulaciji živčnega sistema." />
   <meta property="og:url" content="https://sanjasomatika.si/v2/zapisi.html" />
   <meta property="og:type" content="website" />
@@ -15,48 +15,59 @@
   <style>
     body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6; }
     main { max-width: 900px; margin: 0 auto; padding: 24px; }
+    header { padding: 16px 0 8px; }
     nav a { margin-right: 12px; }
     .muted { opacity: 0.8; }
     .card { border: 1px solid rgba(0,0,0,0.12); border-radius: 12px; padding: 16px; margin-top: 14px; }
     .postlist a { display: block; padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.08); text-decoration: none; }
     .postlist a:hover { text-decoration: underline; }
   </style>
-<header>
-  <nav class="muted">
-    <a href="/v2/">Domov</a>
-    <a href="/v2/oblike-sodelovanja.html">Oblike sodelovanja</a>
-    <a href="/v2/o-meni.html">O meni</a>
-    <a href="/v2/kako-delam.html">Kako delam</a>
-    <a href="/v2/cenik.html">Cenik & dogovor</a>
-    <a href="/v2/zapisi.html">Zapisi o somatiki</a>
-    <a href="/v2/odzivi.html">Odzivi</a>
-    <a href="/v2/strokovno-ozadje.html">Strokovno ozadje</a>
-    <a href="/v2/#kontakt">Kontakt</a>
-  </nav>
-</header>
+</head>
 
+<body>
+  <main>
 
-    <h1>Zapisi</h1>
-    <p class="muted">Ta stran je v pripravi. Tukaj bo seznam zapisov (člankov) za ljudi, ki iščejo somatiko, regulacijo živčnega sistema, pomoč pri stresu/anksioznosti in utelešene prakse.</p>
+    <header>
+      <nav class="muted">
+        <a href="/v2/">Domov</a>
+        <a href="/v2/oblike-sodelovanja.html">Oblike sodelovanja</a>
+        <a href="/v2/o-meni.html">O meni</a>
+        <a href="/v2/kako-delam.html">Kako delam</a>
+        <a href="/v2/cenik.html">Cenik & dogovor</a>
+        <a href="/v2/zapisi.html">Zapisi o somatiki</a>
+        <a href="/v2/odzivi.html">Odzivi</a>
+        <a href="/v2/strokovno-ozadje.html">Strokovno ozadje</a>
+        <a href="/v2/#kontakt">Kontakt</a>
+      </nav>
+    </header>
 
-    <div class="card">
-      <h2>Predlogi prvih zapisov (kasneje jih bova dodali)</h2>
-      <div class="postlist">
-        <a href="#">Anksioznost: telesni znaki in somatski pristop</a>
-        <a href="#">Kronični stres in živčni sistem: kaj se dogaja v telesu</a>
-        <a href="#">Somatske vaje: kaj izraz pomeni (in kako ga uporabljam etično)</a>
-        <a href="#">Meditacija za pomiritev: kdaj pomaga in kdaj ne (somatski pogled)</a>
-        <a href="#">Utelešene meje: zakaj razumeti meje ni isto kot jih živeti</a>
+    <section>
+      <h1>Zapisi o somatiki</h1>
+      <p class="muted">
+        Ta stran je v pripravi. Tukaj bo seznam zapisov (člankov) za ljudi, ki iščejo somatiko,
+        regulacijo živčnega sistema, pomoč pri stresu/anksioznosti in utelešene prakse.
+      </p>
+
+      <div class="card">
+        <h2>Predlogi prvih zapisov</h2>
+        <div class="postlist">
+          <a href="#">Anksioznost: telesni znaki in somatski pristop</a>
+          <a href="#">Kronični stres in živčni sistem: kaj se dogaja v telesu</a>
+          <a href="#">Somatske vaje: kaj izraz pomeni (in kako ga uporabljam etično)</a>
+          <a href="#">Meditacija za pomiritev: kdaj pomaga in kdaj ne (somatski pogled)</a>
+          <a href="#">Utelešene meje: zakaj razumeti meje ni isto kot jih živeti</a>
+        </div>
       </div>
-    </div>
+    </section>
 
     <footer class="muted" style="margin-top: 48px;">
       <p>© <span id="y"></span> Sanja Somatika</p>
     </footer>
 
-    <script>
-      document.getElementById('y').textContent = new Date().getFullYear();
-    </script>
   </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
